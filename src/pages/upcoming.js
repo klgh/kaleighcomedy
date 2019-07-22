@@ -6,8 +6,8 @@ import SEO from "../components/seo"
 
 const Upcoming = () => (
   <Layout>
-    <SEO title="Page two" />
-    <h1>Upcoming</h1>
+    <SEO title="Upcoming Dates" />
+    <h1>Upcoming Dates</h1>
     <h1>Past</h1>
     <h2>2019</h2>
     <em>Standup vs Improv</em>

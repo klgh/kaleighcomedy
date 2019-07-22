@@ -10,7 +10,7 @@ library.add(fab)
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Home" />
+    <SEO title="Kaleigh Scruggs | atlanta comedy" />
     <div class="container">
       <div class="row mainBody">
         <div class="col">
