@@ -44,6 +44,12 @@ const IndexPage = () => (
           {" "}
           <div class="connect">
             <div class="faIcons">
+              <a href="https://www.youtube.com/channel/UC8y5lZUKVafYMVgPNLYHJLg">
+                <FontAwesomeIcon
+                  title="kaleigh's youtube"
+                  icon={["fab", "youtube"]}
+                />
+              </a>{" "}
               <a href="https://twitter.com/kaleighscruggs">
                 <FontAwesomeIcon
                   title="kaleigh's twitter"
@@ -54,6 +60,12 @@ const IndexPage = () => (
                 <FontAwesomeIcon
                   title="kaleigh's instagram"
                   icon={["fab", "instagram"]}
+                />
+              </a>{" "}
+              <a href="https://www.facebook.com/kleach">
+                <FontAwesomeIcon
+                  title="kaleigh's facebook"
+                  icon={["fab", "facebook"]}
                 />
               </a>{" "}
               <a href="https://kaleighblogs.com/">
