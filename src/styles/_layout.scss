@@ -1,52 +1,46 @@
 body {
   margin: 0px;
-  font-family: "PT Sans", sans-serif;
-}
-
-.header {
+  font-family: "Montserrat", sans-serif;
   background: $mainColor;
-  padding: 0.5em 30px;
+  color: $linkColor;
   a:link,
   a:visited,
   a:hover,
   a:active {
-    color: white;
+    color: $linkColor;
     text-decoration: none;
   }
 }
-.header-links {
-  max-width: 400px;
-  text-align: left;
-  position: absolute;
-  margin-top: 6px;
-  margin-right: auto;
-  margin-bottom: 0px;
-  margin-left: auto;
-  @include for-size(phone-only) {
-    margin-top: 12px;
-    margin-left: -19px;
-    font-size: 12px;
-  }
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link {
+  color: $linkColor;
+  text-decoration: none;
 }
 
-.siteName {
-  text-align: center;
-  font-size: 24px;
+.navbar-light .navbar-nav .nav-link:hover {
+  color: $linkHover;
+}
+
+.navbar-brand {
+  font-size: 32px;
+}
+.navbar-nav {
+  font-size: 18px;
 }
 
 .mainBody {
   margin: 0 auto;
   max-width: 960px;
   padding: 1.45rem 1.0875rem 1.45rem 1.0875rem;
-  text-align: left;
 }
 
 .hpBio {
+  font-size: 16px;
   a:link,
   a:visited,
   a:hover,
   a:active {
-    color: $mainColor;
+    color: $linkColor;
     text-decoration: none;
   }
   @include for-size(phone-only) {
@@ -54,27 +48,9 @@ body {
   }
 }
 
-.hpIntro {
-  font-size: 40px;
-  @include for-size(phone-only) {
-    text-align: center;
-  }
-}
-
-.bio {
-  font-size: 16px;
-}
-
-.connect {
-  font-size: 20px;
-  margin-top: 36px;
-  @include for-size(phone-only) {
-    text-align: center;
-  }
-}
-
 .faIcons {
   font-size: 30px;
+  text-align: center;
 }
 
 .hpImage {
@@ -88,41 +64,9 @@ body {
   }
 }
 
-.fourohfourpage {
-  a {
-    color: $mainColor;
-    text-decoration: none;
-  }
-  text-align: center;
-  max-width: 960px;
-  margin: 0 auto;
-  .imgfourohfour {
-    text-align: center;
-    margin: 0 auto;
-    max-width: 30%;
-    margin-bottom: 1.45rem;
-  }
-}
-
-.footer {
-  background: $mainColor;
-  padding: 0.5em 30px;
-  a:link,
-  a:visited,
-  a:hover,
-  a:active {
-    color: white;
-    text-decoration: none;
-  }
-}
-
 .footer-links {
   text-align: center;
   max-width: 960px;
   margin: 0 auto;
-  color: white;
-}
-
-ul {
-  list-style: none;
+  font-size: 12px;
 }

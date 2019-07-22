@@ -47,7 +47,7 @@ module.exports = {
       options: {
         fonts: [
           {
-            family: `PT Sans`,
+            family: `Montserrat`,
           },
         ],
       },
