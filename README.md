@@ -1,9 +1,5 @@
-<!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
-<p align="center">
-  <a href="https://www.gatsbyjs.org">
-    <img alt="Gatsby" src="https://www.gatsbyjs.org/monogram.svg" width="60" />
-  </a>
-</p>
+[![Netlify Status](https://api.netlify.com/api/v1/badges/21196bd4-1b13-4457-9c35-cccac9c5eb69/deploy-status)](https://app.netlify.com/sites/nostalgic-poincare-2a5bb3/deploys)
+
 <h1 align="center">
   Kaleigh's Comedy Site
 </h1>
