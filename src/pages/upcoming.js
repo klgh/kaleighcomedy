@@ -8,7 +8,10 @@ const Upcoming = () => (
   <Layout>
     <SEO title="Upcoming Dates" />
     <h1>Upcoming Dates</h1>
-    <h1>Past</h1>
+    <h3 className="comingsoon">
+      <em>this page is under construction, <br></br>so pardon any weirdness</em>
+    </h3>
+    {/* <h1>Past</h1>
     <h2>2019</h2>
     <em>Standup vs Improv</em>
     <h2>2018</h2>
@@ -61,7 +64,7 @@ const Upcoming = () => (
     <br />
     <em>October 26- Java Monkey</em>
     <br />
-    <em>October 15- 420 Show</em>
+    <em>October 15- 420 Show</em> */}
     <br />
     <Link to="/">Go back to the homepage</Link>
   </Layout>

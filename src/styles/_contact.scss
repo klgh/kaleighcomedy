@@ -1,0 +1,12 @@
+.contactPage {
+  a {
+    color: $linkHover !important;
+    a:link,
+    a:visited,
+    a:hover,
+    a:active {
+      color: $linkHover;
+      text-decoration: none;
+    }
+  }
+}

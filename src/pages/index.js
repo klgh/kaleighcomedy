@@ -18,11 +18,9 @@ const IndexPage = () => (
         </div>
         <div class="col hpBio">
           <p>
-            Kaleigh is an Atlanta native who has been working in the technology
-            field since graduating from Georgia Southern University with a BS.
-            She also has a masters in Internet Technology from the University of
-            Georgia. She enjoys kayaking on the Chattahoochee River, Biking,
-            Brazilian Jiu-Jitsu, and Hiking with her husband and dog.
+            Kaleigh is an Atlanta native who works by day as a web developer at
+            a consulting firm. She enjoys kayaking on the Chattahoochee River
+            and hiking with her husband and 2 dogs.
           </p>
           <p>
             Kaleigh has been performing standup in Atlanta since 2016, appearing
@@ -66,12 +64,6 @@ const IndexPage = () => (
                 <FontAwesomeIcon
                   title="kaleigh's facebook"
                   icon={["fab", "facebook"]}
-                />
-              </a>{" "}
-              <a href="https://kaleighblogs.com/">
-                <FontAwesomeIcon
-                  title="kaleigh's blog"
-                  icon={["fab", "wordpress"]}
                 />
               </a>{" "}
             </div>
