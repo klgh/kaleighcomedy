@@ -21,7 +21,7 @@ const Contact = () => (
       </p>
       <p className="contactForm">
         or fill out the form below!
-        <form name="contact" method="POST" data-netlify="true">
+        <form name="contact" method="POST" data-netlify="true" action="/success">
           <p>
             <label>
               Your Name: <input type="text" name="name" />
