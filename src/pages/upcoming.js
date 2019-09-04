@@ -1,16 +1,24 @@
 import React from "react"
 import { Link } from "gatsby"
-
+import Img from "gatsby-image"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
-const Upcoming = () => (
+const Upcoming = props => (
   <Layout>
     <SEO title="Upcoming Dates" />
     <h1>Upcoming Dates</h1>
     <h3 className="comingsoon">
-      <em>this page is under construction, <br></br>so pardon any weirdness</em>
+      <em>
+        this page is under construction, <br></br>so pardon any weirdness
+      </em>
     </h3>
+    <div className="col image">
+      <Img fluid={props.data.funnymonkey.childImageSharp.fluid} />
+    </div>
+    <div className="col image">
+      <Img fluid={props.data.punchline.childImageSharp.fluid} />
+    </div>
     {/* <h1>Past</h1>
     <h2>2019</h2>
     <em>Standup vs Improv</em>
@@ -71,3 +79,22 @@ const Upcoming = () => (
 )
 
 export default Upcoming
+
+export const pageQuery = graphql`
+  query {
+    funnymonkey: file(relativePath: { eq: "funnymonkey.jpg" }) {
+      childImageSharp {
+        fluid(maxWidth: 600) {
+          ...GatsbyImageSharpFluid
+        }
+      }
+    }
+    punchline: file(relativePath: { eq: "punchline.jpg" }) {
+      childImageSharp {
+        fluid(maxWidth: 600) {
+          ...GatsbyImageSharpFluid
+        }
+      }
+    }
+  }
+`

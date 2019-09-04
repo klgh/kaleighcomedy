@@ -1,10 +1,10 @@
 import React from "react"
 import { Link } from "gatsby"
-
+import Img from "gatsby-image"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
-const SecondPage = () => (
+const SecondPage = props => (
   <Layout>
     <SEO title="About" />
     <h1>About</h1>
@@ -27,8 +27,23 @@ const SecondPage = () => (
         2017
       </p>
     </div>
+    <div className="col image">
+      <Img fluid={props.data.sass.childImageSharp.fluid} />
+    </div>
     <Link to="/">Go back to the homepage</Link>
   </Layout>
 )
 
 export default SecondPage
+
+export const pageQuery = graphql`
+  query {
+    sass: file(relativePath: { eq: "sass.jpg" }) {
+      childImageSharp {
+        fluid(maxWidth: 600) {
+          ...GatsbyImageSharpFluid
+        }
+      }
+    }
+  }
+`
