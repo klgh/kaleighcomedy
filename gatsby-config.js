@@ -52,11 +52,11 @@ module.exports = {
         ],
       },
     },
-    {
+    /* {
       resolve: `gatsby-plugin-favicon`,
       options: {
         logo: "./src/images/favicon.png",
       },
-    },
+    }, */
   ],
 }
