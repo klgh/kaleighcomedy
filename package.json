@@ -19,7 +19,7 @@
     "gatsby-plugin-prefetch-google-fonts": "^1.4.3",
     "gatsby-plugin-react-helmet": "^3.1.10",
     "gatsby-plugin-sass": "^2.1.17",
-    "gatsby-source-filesystem": "^2.1.29",
+    "gatsby-source-filesystem": "^2.1.30",
     "gatsby-plugin-sharp": "^2.2.28",
     "gatsby-transformer-sharp": "^2.2.20",
     "node-sass": "^4.12.0",
