@@ -1,12 +1,12 @@
 {
-  "name": "gatsby-starter-default",
+  "name": "kaleigh-comedy",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
+  "description": "kaleigh's comedy site",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Kaleigh Scruggs <kaleighscruggs@gmail.com>",
   "dependencies": {
-    "@fortawesome/fontawesome-svg-core": "^1.2.28",
-    "@fortawesome/free-brands-svg-icons": "^5.13.0",
+    "@fortawesome/fontawesome-svg-core": "^1.2.29",
+    "@fortawesome/free-brands-svg-icons": "^5.13.1",
     "@fortawesome/react-fontawesome": "^0.1.9",
     "bootstrap": "^4.4.1",
     "gatsby": "^2.20.12",
