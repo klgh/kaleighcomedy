@@ -68,6 +68,10 @@ function SEO({ description, lang, meta, title }) {
           content: metaDescription,
         },
         {
+          name: `twitter:image`,
+          content: "https://kaleighcomedy.com/images/logo.jpg",
+        },
+        {
           name: "google-site-verification",
           content: "KVMHNRrGMP2swjDCytJMwFrKUmDI5zz0RQYA5SrME3Q",
         },

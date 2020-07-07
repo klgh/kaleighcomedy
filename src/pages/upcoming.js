@@ -7,73 +7,72 @@ import SEO from "../components/seo"
 const Upcoming = props => (
   <Layout>
     <SEO title="Upcoming Dates" />
-    <h1>Upcoming Dates</h1>
-    <h3 className="comingsoon">
-      <em>
-        this page is under construction, <br></br>so pardon any weirdness
-      </em>
-    </h3>
-    <div className="col image">
-      <Img fluid={props.data.funnymonkey.childImageSharp.fluid} />
+    <div className="upcoming">
+      <div className="twentytwenty">
+        <h1>Upcoming Dates</h1>
+        <p>no upcoming dates due to 2020</p>
+      </div>
+      <div className="photos">
+        <div className="pic">
+          <Img fluid={props.data.funnymonkey.childImageSharp.fluid} />
+        </div>
+        <div className="pic">
+          <Img fluid={props.data.punchline.childImageSharp.fluid} />
+        </div>
+      </div>
+      <div className="past">
+        <h1>Past</h1>
+        <div className="nineteen">
+          <h2>2019</h2>
+          <p>Feb 15 - Standup vs Improv</p>
+        </div>
+        <div className="eightteen">
+          <h2>2018</h2>
+          <p>January 25 - Gilly’s Showcase</p>
+          <p>January 24 - Fire &amp; Brimstone</p>
+        </div>
+        <div className="seventeen">
+          <h2>2017</h2>
+          <p>
+            November 7 –{" "}
+            <a
+              href="https://www.rljproductions.com/previous-events/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Crafty Hog Comedy Show
+            </a>
+          </p>
+          <p>November 1 – Fire &amp; Brimstone </p>
+          <p>July 11 - Fire &amp; Brimstone</p>
+          <p>July 5 – Laughing Skull</p>
+          <p>June 20 – Fire &amp; Brimstone</p>
+          <p>May 17 – Laughing Skull</p>
+          <p>May 9 – Fire &amp; Brimstone</p>
+          <p>April 13 – Sweetwater Bar & Grill</p>
+          <p>March 26- Highwire Comedy</p>
+          <p>March 22- Improv R&amp;D</p>
+          <p>March 15- Java Monkey</p>
+          <p>March 11- 420 Show</p>
+          <p>March 9 - Sweetwater Bar &amp; Grill</p>
+          <p>
+            Feb 26 - The Punchline: Sunday Night Comedy Fest Finals (2nd place)
+          </p>
+          <p>Feb 21 - Fire &amp; Brimstone: Clash of the Comics</p>
+          <p>Feb 19 - The Punchline: Sunday Night Comedy Fest (3rd place)</p>
+          <p>Feb 16 - Sweetwater Bar & Grill</p>
+          <p>Jan 31 - Fire & Brimstone</p>
+        </div>
+        <div className="sixteen">
+          <h2>2016</h2>
+          <p>November 21 - Laughing Skull</p>
+          <p>November 15 - Fire & Brimstone</p>
+          <p>October 30 - Highwire Comedy</p>
+          <p>October 26 - Java Monkey</p>
+          <p>October 15 - 420 Show</p>
+        </div>
+      </div>
     </div>
-    <div className="col image">
-      <Img fluid={props.data.punchline.childImageSharp.fluid} />
-    </div>
-    {/* <h1>Past</h1>
-    <h2>2019</h2>
-    <em>Standup vs Improv</em>
-    <h2>2018</h2>
-    <em>January 25 - Gilly’s Showcase</em> <br />
-    <em>January 24 - Fire &amp; Brimstone</em>
-    <br />
-    <h2>2017</h2>
-    <em>November 7 – Crafty Hog Comedy Show</em>
-    <br />
-    <em>November 1 – Fire &amp; Brimstone </em>
-    <br />
-    <em>July 11- Fire &amp; Brimstone</em>
-    <br />
-    <em>July 5 – Laughing Skull</em>
-    <br />
-    <em>June 20 – Fire &amp; Brimstone</em>
-    <br />
-    <em>May 17 – Laughing Skull</em>
-    <br />
-    <em>May 9 – Fire &amp; Brimstone</em>
-    <br />
-    <em>April 13 – Sweetwater Bar & Grill</em>
-    <br />
-    <em>March 26- Highwire Comedy</em>
-    <br />
-    <em>March 22- Improv R&amp;D</em>
-    <br />
-    <em>March 15- Java Monkey</em>
-    <br />
-    <em>March 11- 420 Show</em>
-    <br />
-    <em>March 9- Sweetwater Bar &amp; Grill</em>
-    <br />
-    <em>Feb 26- The Punchline: Sunday Night Comedy Fest Finals</em>
-    <br />
-    <em>Feb 21-Fire &amp; Brimstone: Clash of the Comics</em>
-    <br />
-    <em>Feb 19-The Punchline: Sunday Night Comedy Fest</em>
-    <br />
-    <em>Feb 16-Sweetwater Bar & Grill</em>
-    <br />
-    <em>Jan 31-Fire & Brimstone</em>
-    <br />
-    <h2>2016</h2>
-    <em>November 21- Laughing Skull</em>
-    <br />
-    <em>November 15- Fire & Brimstone</em>
-    <br />
-    <em>October 30- Highwire Comedy</em>
-    <br />
-    <em>October 26- Java Monkey</em>
-    <br />
-    <em>October 15- 420 Show</em> */}
-    <br />
     <Link to="/">Go back to the homepage</Link>
   </Layout>
 )

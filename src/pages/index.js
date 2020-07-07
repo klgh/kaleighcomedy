@@ -18,9 +18,9 @@ const IndexPage = () => (
         </div>
         <div class="col hpBio">
           <p>
-            Kaleigh is an Atlanta native who works by day as a web developer at
-            a consulting firm. She enjoys kayaking on the Chattahoochee River
-            and hiking with her husband and 2 dogs.
+            Kaleigh is an Atlanta native who works by day as a{" "}
+            <a href="https://kaleigh.dev">web developer</a>. She enjoys kayaking
+            on the Chattahoochee River and hiking with her husband and 2 dogs.
           </p>
           <p>
             Kaleigh has been performing standup in Atlanta since 2016, appearing
@@ -33,6 +33,17 @@ const IndexPage = () => (
           <p>
             Kaleigh placed 2nd in The Punchline’s Sunday Night Comedy Festival
             -Feb 2017
+          </p>
+          <p>
+            For booking info email:{" "}
+            <a
+              href="mailto:kaleighcomedy@gmail.com"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              {" "}
+              kaleighcomedy@gmail.com
+            </a>
           </p>
         </div>
       </div>

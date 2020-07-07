@@ -10,16 +10,10 @@ const Header = ({ siteTitle }) => (
     <div class=" navbar-collapse" id="navbarNavAltMarkup">
       <div class="navbar-nav">
         <div class="nav-item nav-link">
-          <Link to="/about">About</Link>
-        </div>
-        <div class="nav-item nav-link">
           <Link to="/upcoming">Upcoming</Link>
         </div>
         <div class="nav-item nav-link">
           <Link to="/media">Media</Link>
-        </div>
-        <div class="nav-item nav-link">
-          <Link to="/contact">Contact</Link>
         </div>
       </div>
     </div>
