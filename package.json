@@ -20,7 +20,7 @@
     "gatsby-plugin-react-helmet": "^3.3.9",
     "gatsby-plugin-sass": "^2.3.10",
     "gatsby-plugin-sharp": "^2.6.18",
-    "gatsby-source-filesystem": "^2.3.18",
+    "gatsby-source-filesystem": "^2.3.23",
     "gatsby-transformer-sharp": "^2.5.10",
     "node-sass": "^4.13.1",
     "prop-types": "^15.7.2",
