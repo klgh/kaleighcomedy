@@ -3,16 +3,16 @@ import PropTypes from "prop-types"
 import React from "react"
 
 const Header = ({ siteTitle }) => (
-  <nav class="navbar navbar-expand-lg navbar-light">
-    <div class="navbar-brand">
+  <nav className="navbar navbar-expand-lg navbar-light">
+    <div className="navbar-brand">
       <Link to="/">{siteTitle}</Link>
     </div>
-    <div class=" navbar-collapse" id="navbarNavAltMarkup">
-      <div class="navbar-nav">
-        <div class="nav-item nav-link">
+    <div className=" navbar-collapse" id="navbarNavAltMarkup">
+      <div className="navbar-nav">
+        <div className="nav-item nav-link">
           <Link to="/upcoming">Upcoming</Link>
         </div>
-        <div class="nav-item nav-link">
+        <div className="nav-item nav-link">
           <Link to="/media">Media</Link>
         </div>
       </div>

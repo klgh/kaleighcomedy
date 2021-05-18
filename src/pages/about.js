@@ -1,5 +1,5 @@
 import React from "react"
-import { Link } from "gatsby"
+import { Link, graphql } from "gatsby"
 import Img from "gatsby-image"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
@@ -8,7 +8,7 @@ const SecondPage = props => (
   <Layout>
     <SEO title="About" />
     <h1>About</h1>
-    <div class="col hpBio">
+    <div className="col hpBio">
       <p>
         Kaleigh is an Atlanta native who works by day as a web developer at a
         consulting firm. She enjoys kayaking on the Chattahoochee River and

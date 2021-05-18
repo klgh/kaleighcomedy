@@ -43,13 +43,11 @@ module.exports = {
       },
     },
     {
-      resolve: `gatsby-plugin-prefetch-google-fonts`,
+      resolve: "gatsby-plugin-web-font-loader",
       options: {
-        fonts: [
-          {
-            family: `Montserrat`,
-          },
-        ],
+        google: {
+          families: ["Montserrat"],
+        },
       },
     },
     /* {
