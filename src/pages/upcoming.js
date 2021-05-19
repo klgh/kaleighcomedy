@@ -1,5 +1,5 @@
 import React from "react"
-import { Link } from "gatsby"
+import { Link, graphql } from "gatsby"
 import Img from "gatsby-image"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
@@ -20,7 +20,7 @@ const Upcoming = props => (
           <Img fluid={props.data.punchline.childImageSharp.fluid} />
         </div>
       </div>
-      <div className="past">
+      {/* <div className="past">
         <h1>Past</h1>
         <div className="nineteen">
           <h2>2019</h2>
@@ -71,7 +71,7 @@ const Upcoming = props => (
           <p>October 26 - Java Monkey</p>
           <p>October 15 - 420 Show</p>
         </div>
-      </div>
+      </div> */}
     </div>
     <Link to="/">Go back to the homepage</Link>
   </Layout>

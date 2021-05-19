@@ -11,12 +11,12 @@ library.add(fab)
 const IndexPage = () => (
   <Layout>
     <SEO title="Kaleigh Scruggs | atlanta comedy" />
-    <div class="container">
-      <div class="row mainBody">
-        <div class="col">
+    <div className="container">
+      <div className="row mainBody">
+        <div className="col">
           <Image />
         </div>
-        <div class="col hpBio">
+        <div className="col hpBio">
           <p>
             Kaleigh is an Atlanta native who works by day as a{" "}
             <a href="https://kaleigh.dev">web developer</a>. She enjoys kayaking
@@ -47,12 +47,12 @@ const IndexPage = () => (
           </p>
         </div>
       </div>
-      <div class="row">
-        <div class="col"></div>
-        <div class="col">
+      <div className="row">
+        <div className="col"></div>
+        <div className="col">
           {" "}
-          <div class="connect">
-            <div class="faIcons">
+          <div className="connect">
+            <div className="faIcons">
               <a
                 href="https://www.youtube.com/channel/UC8y5lZUKVafYMVgPNLYHJLg"
                 target="_blank"
@@ -96,7 +96,7 @@ const IndexPage = () => (
             </div>
           </div>
         </div>
-        <div class="col"></div>
+        <div className="col"></div>
       </div>
     </div>
   </Layout>
